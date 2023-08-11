@@ -5,12 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02d13332-c69c-4bce-8e32-bb9b3ca4393a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/week_02/live_class/ComputeArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_02/live_class/ComputeAverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_02/live_class/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_02/live_class/DataTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_02/live_class/DisplayTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_02/live_class/Identifiers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_07.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_23.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,13 +79,13 @@
       <recent name="C:\Users\PC\workspace" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DisplayTime">
-    <configuration name="ComputeArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_02.live_class.ComputeArea" />
+  <component name="RunManager" selected="Application.Question_02_23">
+    <configuration name="Question_02_19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_02.assignments.Question_02_19" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week_02.live_class.*" />
+          <option name="PATTERN" value="week_02.assignments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Constants" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_02.live_class.Constants" />
+    <configuration name="Question_02_20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_02.assignments.Question_02_20" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week_02.live_class.*" />
+          <option name="PATTERN" value="week_02.assignments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_02.live_class.DataTypes" />
+    <configuration name="Question_02_21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_02.assignments.Question_02_21" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week_02.live_class.*" />
+          <option name="PATTERN" value="week_02.assignments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DisplayTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_02.live_class.DisplayTime" />
+    <configuration name="Question_02_22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_02.assignments.Question_02_22" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week_02.live_class.*" />
+          <option name="PATTERN" value="week_02.assignments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Identifiers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_02.live_class.Identifiers" />
+    <configuration name="Question_02_23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_02.assignments.Question_02_23" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week_02.live_class.*" />
+          <option name="PATTERN" value="week_02.assignments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DisplayTime" />
-        <item itemvalue="Application.ComputeArea" />
-        <item itemvalue="Application.DataTypes" />
-        <item itemvalue="Application.Identifiers" />
-        <item itemvalue="Application.Constants" />
+        <item itemvalue="Application.Question_02_23" />
+        <item itemvalue="Application.Question_02_22" />
+        <item itemvalue="Application.Question_02_21" />
+        <item itemvalue="Application.Question_02_20" />
+        <item itemvalue="Application.Question_02_19" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +186,7 @@
       <workItem from="1691515522275" duration="23000" />
       <workItem from="1691515717503" duration="685000" />
       <workItem from="1691683426553" duration="9150000" />
+      <workItem from="1691748270405" duration="12483000" />
     </task>
     <servers />
   </component>
@@ -183,6 +201,10 @@
           <line>5</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.InputMismatchException" package="java.util" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
