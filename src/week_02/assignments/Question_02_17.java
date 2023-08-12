@@ -16,6 +16,6 @@ public class Question_02_17 {
 
         double windChillIndex = 35.74 + (0.6215 * outsideTemperature) - (35.75 * Math.pow(windSpeed, 0.16)) + (0.4275 * outsideTemperature * Math.pow(windSpeed, 0.16));
 
-        System.out.println("The wind chill index is " + windChillIndex);
+        System.out.println("The wind chill index is " + (int) (windChillIndex = Math.floor(windChillIndex * 100000)) / 100000.0);
     }
 }

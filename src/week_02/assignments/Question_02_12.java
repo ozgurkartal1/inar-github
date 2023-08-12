@@ -14,6 +14,6 @@ public class Question_02_12 {
 
         double length = Math.pow(speed, 2) / (2 * acceleration);
 
-        System.out.println("The minimum runway length for this airplane is " + length);
+        System.out.println("The minimum runway length for this airplane is " + (int) (length = Math.ceil(length * 1000)) / 1000.0);
     }
 }

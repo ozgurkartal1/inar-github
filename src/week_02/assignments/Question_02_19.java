@@ -24,6 +24,6 @@ public class Question_02_19 {
 
         double area = Math.sqrt(s * (s - side1) * (s - side2) * (s - side3));
 
-        System.out.println("The area of the triangle is " + area);
+        System.out.println("The area of the triangle is " + (int) (area * 10) / 10.0);
     }
 }

@@ -19,6 +19,6 @@ public class Question_02_14 {
 
         double bmi = weightInKilograms / Math.pow(heightInMeters, 2);
 
-        System.out.println("BMI is " + bmi);
+        System.out.println("BMI is " + (int) (bmi = Math.ceil(bmi * 10000)) / 10000.0);
     }
 }

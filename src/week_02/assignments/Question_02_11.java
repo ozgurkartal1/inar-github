@@ -17,7 +17,7 @@ public class Question_02_11 {
         System.out.print("Enter the number of years : ");
         int numberOfYears = input.nextInt();
 
-        currentPopulation = (int)(currentPopulation + 5 * (birthInOneYear + immigrantInOneYear - deathInOneYear));
+        currentPopulation = (int)Math.ceil(currentPopulation + 5 * (birthInOneYear + immigrantInOneYear - deathInOneYear));
 
         System.out.println("The population in " + numberOfYears + " years is " + currentPopulation);
     }

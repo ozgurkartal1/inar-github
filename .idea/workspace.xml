@@ -5,30 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02d13332-c69c-4bce-8e32-bb9b3ca4393a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_09.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_19.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_23.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_02/live_class/DisplayingTheCurrentTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week_02/live_class/NumericLiterals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week_02/assignments/Question_02_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week_02/assignments/Question_02_08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_08.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week_02/assignments/Question_02_09.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_09.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week_02/assignments/Question_02_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week_02/assignments/Question_02_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week_02/assignments/Question_02_13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week_02/assignments/Question_02_14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week_02/assignments/Question_02_16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week_02/assignments/Question_02_17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week_02/assignments/Question_02_19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week_02/assignments/Question_02_20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week_02/assignments/Question_02_21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week_02/assignments/Question_02_23.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_23.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/week_02/live_class/DataTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_02/live_class/DataTypes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,9 +72,9 @@
       <recent name="C:\Users\PC\workspace" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Question_02_23">
-    <configuration name="Question_02_19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_02.assignments.Question_02_19" />
+  <component name="RunManager" selected="Application.Question_02_06">
+    <configuration name="Question_02_06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_02.assignments.Question_02_06" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
@@ -93,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question_02_20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_02.assignments.Question_02_20" />
+    <configuration name="Question_02_09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_02.assignments.Question_02_09" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
@@ -106,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question_02_21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_02.assignments.Question_02_21" />
+    <configuration name="Question_02_11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_02.assignments.Question_02_11" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
@@ -119,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question_02_22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_02.assignments.Question_02_22" />
+    <configuration name="Question_02_12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_02.assignments.Question_02_12" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
@@ -132,8 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question_02_23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_02.assignments.Question_02_23" />
+    <configuration name="Question_02_13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_02.assignments.Question_02_13" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
@@ -147,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Question_02_23" />
-        <item itemvalue="Application.Question_02_22" />
-        <item itemvalue="Application.Question_02_21" />
-        <item itemvalue="Application.Question_02_20" />
-        <item itemvalue="Application.Question_02_19" />
+        <item itemvalue="Application.Question_02_06" />
+        <item itemvalue="Application.Question_02_13" />
+        <item itemvalue="Application.Question_02_12" />
+        <item itemvalue="Application.Question_02_11" />
+        <item itemvalue="Application.Question_02_09" />
       </list>
     </recent_temporary>
   </component>
@@ -187,6 +180,11 @@
       <workItem from="1691515717503" duration="685000" />
       <workItem from="1691683426553" duration="9150000" />
       <workItem from="1691748270405" duration="12483000" />
+      <workItem from="1691794350865" duration="40000" />
+      <workItem from="1691833967734" duration="767000" />
+      <workItem from="1691848988929" duration="4600000" />
+      <workItem from="1691854076527" duration="8048000" />
+      <workItem from="1691863631430" duration="21000" />
     </task>
     <servers />
   </component>

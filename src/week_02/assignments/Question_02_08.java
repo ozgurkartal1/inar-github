@@ -10,7 +10,7 @@ public class Question_02_08 {
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter the time zone offset to GMT : ");
-        double timeZoneOffset = input.nextDouble();
+        short timeZoneOffset = input.nextShort();
 
         long Milliseconds = System.currentTimeMillis();
 
@@ -24,8 +24,8 @@ public class Question_02_08 {
 
         long totalHours = totalMinutes / 60;
 
-        long currentHours = totalHours % 24;
+        long currentHours = (totalHours + timeZoneOffset) % 24;
 
-        System.out.println("The current time is " + currentHours + ":" +currentMinutes + ":" + currentSeconds);
+        System.out.println("The current time is " + currentHours  + ":" +currentMinutes + ":" + currentSeconds +  " GMT +3");
     }
 }

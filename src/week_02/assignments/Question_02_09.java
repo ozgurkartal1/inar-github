@@ -16,6 +16,6 @@ public class Question_02_09 {
 
         double averageAcceleration = (endingVelocity - startingVelocity) / time;
 
-        System.out.println("The average acceleration is " + averageAcceleration);
+        System.out.println("The average acceleration is " + (int) (averageAcceleration = Math.ceil(averageAcceleration * 10000)) / 10000.0);
     }
 }
