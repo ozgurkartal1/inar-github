@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02d13332-c69c-4bce-8e32-bb9b3ca4393a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/week_02/live_class/DisplayingTheCurrentTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_02/live_class/NumericLiterals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week_02/assignments/Question_02_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week_02/assignments/Question_02_08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_08.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week_02/assignments/Question_02_09.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_09.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week_02/assignments/Question_02_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week_02/assignments/Question_02_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_12.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/week_02/assignments/Question_02_13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week_02/assignments/Question_02_14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week_02/assignments/Question_02_16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_16.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week_02/assignments/Question_02_17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_17.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week_02/assignments/Question_02_19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_19.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week_02/assignments/Question_02_20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week_02/assignments/Question_02_21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_21.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week_02/assignments/Question_02_23.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_02/assignments/Question_02_23.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week_02/live_class/DataTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_02/live_class/DataTypes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +57,7 @@
       <recent name="C:\Users\PC\workspace" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Question_02_06">
+  <component name="RunManager" selected="Application.Question_02_13">
     <configuration name="Question_02_06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week_02.assignments.Question_02_06" />
       <module name="inar-java" />
@@ -140,8 +125,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Question_02_06" />
         <item itemvalue="Application.Question_02_13" />
+        <item itemvalue="Application.Question_02_06" />
         <item itemvalue="Application.Question_02_12" />
         <item itemvalue="Application.Question_02_11" />
         <item itemvalue="Application.Question_02_09" />
@@ -185,6 +170,8 @@
       <workItem from="1691848988929" duration="4600000" />
       <workItem from="1691854076527" duration="8048000" />
       <workItem from="1691863631430" duration="21000" />
+      <workItem from="1692004310648" duration="792000" />
+      <workItem from="1692115974995" duration="1676000" />
     </task>
     <servers />
   </component>

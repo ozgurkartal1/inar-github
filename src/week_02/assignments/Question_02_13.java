@@ -16,10 +16,26 @@ public class Question_02_13 {
         double annualInterestRate = 0.05;
         double monthlyInterestRate = annualInterestRate / 12;
 
-        for (int i = 1 ; i <= 6 ; i++){
             totalAmount += amount;
             totalAmount = totalAmount * (1 + monthlyInterestRate);
-        }
+
+            totalAmount += amount;
+            totalAmount = totalAmount * (1 + monthlyInterestRate);
+
+            totalAmount += amount;
+            totalAmount = totalAmount * (1 + monthlyInterestRate);
+
+            totalAmount += amount;
+            totalAmount = totalAmount * (1 + monthlyInterestRate);
+
+            totalAmount += amount;
+            totalAmount = totalAmount * (1 + monthlyInterestRate);
+
+            totalAmount += amount;
+            totalAmount = totalAmount * (1 + monthlyInterestRate);
+
+
+
 
         System.out.println("After the sixth month, the account value is $" + (int) (totalAmount * 100) / 100.0);
     }
