@@ -21,9 +21,9 @@ public class Question_03_25 {
         // For Cramer's Rule -> ax + by = e and cx + dy = f
 
         double a = (y1 - y2);
-        double b = (x1 - x2);
+        double b = (x2 - x1);
         double c = (y3 - y4);
-        double d = (x3 - x4);
+        double d = (x4 - x3);
         double e = x1 * (y1 - y2) - y1 * (x1 - x2);
         double f = x3 * (y3 - y4) - y3 * (x3 - x4);
 
