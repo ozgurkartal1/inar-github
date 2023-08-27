@@ -18,7 +18,7 @@ public class Question_03_34 {
 
         double deciderEquation = (x1 - x0) * (y2 - y0) - (x2 - x0) * (y1 - y0);
 
-        if(deciderEquation == 0 && x0 <= x2 && x2 <= x1 && y0 <= y2 && y2 <= y1){
+        if(deciderEquation == 0 && (x0 <= x2) && (x2 <= x1) && (y0 <= y2) && (y2 <= y1)){
             System.out.println("(" + x2 + ", " + y2 + ") is on the line segment from (" +
                     x0 + ", " + y0 + ") to (" + x1 + ", " + y1 + ")");
         }else {

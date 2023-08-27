@@ -14,6 +14,8 @@ public class Question_03_05 {
         System.out.print("Enter the number of days elapsed since today : ");
         int elapsedDay = input.nextInt();
 
+        int futureDay = (todayDay + elapsedDay) % 7;
+
         switch (todayDay){
             case 0 -> System.out.print("Today is Sunday");
             case 1 -> System.out.print("Today is Monday");
@@ -23,8 +25,6 @@ public class Question_03_05 {
             case 5 -> System.out.print("Today is Friday");
             case 6 -> System.out.print("Today is Saturday");
         }
-
-        int futureDay = (todayDay + elapsedDay) % 7;
 
         switch (futureDay){
             case 0 -> System.out.print(" and the future day is Sunday");

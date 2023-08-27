@@ -17,29 +17,30 @@ public class Question_03_15 {
         System.out.println("The lottery number is " + lotteryNumber);
 
         int lotteryNumberDigit1 = lotteryNumber / 100;
-        int lotteryNumberDigit2 = (lotteryNumber % 100) / 10;
+        int lotteryNumberDigit2 = (lotteryNumber / 10) % 10;
         int lotteryNumberDigit3 = (lotteryNumber % 10);
 
         int yourNumberDigit1 = yourNumber / 100;
-        int yourNumberDigit2 = (yourNumber % 100) / 10;
+        int yourNumberDigit2 = (yourNumber / 10) % 10;
         int yourNumberDigit3 = (yourNumber % 10);
 
         if(lotteryNumber == yourNumber){
             System.out.println("Exact Match !!! 10000$ Prize");
-        }else if((lotteryNumberDigit1 == yourNumberDigit1 && lotteryNumberDigit2 == yourNumberDigit3 &&
-                lotteryNumberDigit3 == yourNumberDigit2) || (lotteryNumberDigit2 == yourNumberDigit1 &&
-                lotteryNumberDigit1 == yourNumberDigit3 && lotteryNumberDigit3 == yourNumberDigit2) ||
-                (lotteryNumberDigit2 == yourNumberDigit1 &&
-                        lotteryNumberDigit1 == yourNumberDigit2 && lotteryNumberDigit3 == yourNumberDigit3) ||
-                (lotteryNumberDigit3 == yourNumberDigit1 && lotteryNumberDigit2 ==  yourNumberDigit2 &&
-                        lotteryNumberDigit1 == yourNumberDigit3) || (lotteryNumberDigit3 == yourNumberDigit1 &&
-                lotteryNumberDigit1 ==  yourNumberDigit2 && lotteryNumberDigit2 == yourNumberDigit3)){
+        }else if((lotteryNumberDigit1 == yourNumberDigit1 && lotteryNumberDigit2 == yourNumberDigit3 && lotteryNumberDigit3 == yourNumberDigit2) ||
+                (lotteryNumberDigit2 == yourNumberDigit1 && lotteryNumberDigit1 == yourNumberDigit3 && lotteryNumberDigit3 == yourNumberDigit2) ||
+                (lotteryNumberDigit2 == yourNumberDigit1 && lotteryNumberDigit1 == yourNumberDigit2 && lotteryNumberDigit3 == yourNumberDigit3) ||
+                (lotteryNumberDigit3 == yourNumberDigit1 && lotteryNumberDigit2 ==  yourNumberDigit2 && lotteryNumberDigit1 == yourNumberDigit3) ||
+                (lotteryNumberDigit3 == yourNumberDigit1 && lotteryNumberDigit1 ==  yourNumberDigit2 && lotteryNumberDigit2 == yourNumberDigit3)){
             System.out.println("Matched all numbers !!! 3000$ Prize");
-        }else if (lotteryNumberDigit1 == yourNumberDigit1 || lotteryNumberDigit1 == yourNumberDigit2 ||
-        lotteryNumberDigit1 == yourNumberDigit3 || lotteryNumberDigit2 == yourNumberDigit1 ||
-        lotteryNumberDigit2 == yourNumberDigit2 || lotteryNumberDigit2 == yourNumberDigit3||
-        lotteryNumberDigit3 == yourNumberDigit1 || lotteryNumberDigit3 == yourNumberDigit2 ||
-        lotteryNumberDigit3 == yourNumberDigit3){
+        }else if (lotteryNumberDigit1 == yourNumberDigit1 ||
+                  lotteryNumberDigit1 == yourNumberDigit2 ||
+                  lotteryNumberDigit1 == yourNumberDigit3 ||
+                  lotteryNumberDigit2 == yourNumberDigit1 ||
+                  lotteryNumberDigit2 == yourNumberDigit2 ||
+                  lotteryNumberDigit2 == yourNumberDigit3 ||
+                  lotteryNumberDigit3 == yourNumberDigit1 ||
+                  lotteryNumberDigit3 == yourNumberDigit2 ||
+                  lotteryNumberDigit3 == yourNumberDigit3){
             System.out.println("Matched one number !!! 1000$ Prize");
         }else{
             System.out.println("Sorry No Match :(");

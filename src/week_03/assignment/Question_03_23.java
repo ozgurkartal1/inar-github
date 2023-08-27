@@ -9,13 +9,13 @@ public class Question_03_23 {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Enter a point with two coordinates : ");
-        double x1 = input.nextDouble();
-        double y1 = input.nextDouble();
+        double x = input.nextDouble();
+        double y = input.nextDouble();
 
-        if(x1 >= -5 && x1 <= 5 && y1 >= -2.5 && y1 <= 2.5){
-            System.out.println("Point (" + x1 + ", " + y1 + ") is in the rectangle");
+        if(x >= -5 && x <= 5 && y >= -2.5 && y <= 2.5){
+            System.out.println("Point (" + x + ", " + y + ") is in the rectangle");
         }else{
-            System.out.println("Point (" + x1 + ", " + y1 + ") is not in the rectangle");
+            System.out.println("Point (" + x + ", " + y + ") is not in the rectangle");
         }
     }
 }

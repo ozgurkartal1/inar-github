@@ -18,8 +18,8 @@ public class Question_03_21 {
         int dayOfTheMonth = input.nextInt();
 
         if(month <= 2){
-            month = month + 12;
-            year = year - 1;
+            month += 12;
+            year--;
         }
 
         int century = (year / 100) ;

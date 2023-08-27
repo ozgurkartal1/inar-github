@@ -17,12 +17,14 @@ public class Question_03_20 {
         double windChillTemperature = 35.74 + 0.621 * temperature - 35.75 * Math.pow(windSpeed, 0.16) +
                 0.4275 * temperature * Math.pow(windSpeed, 0.16);
 
-        if(temperature > -58){
-            if(temperature < 41 && windSpeed >= 2){
+        if(temperature > -58 && temperature < 41) {
+            if (windSpeed >= 2) {
                 System.out.println("The wind chill index is " + windChillTemperature);
-            }else{
-                System.out.println("The temperature is invalid.");
+            } else {
+                System.out.println("The wind speed is invalid.");
             }
-        }
+        }else {
+                System.out.println("The temperature is invalid");
+            }
     }
 }
