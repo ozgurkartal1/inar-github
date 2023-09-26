@@ -4,151 +4,119 @@ public class Question_06_24 {
 
     public static void main(String[] args) {
 
-        long n = System.currentTimeMillis() / 1000;
+        long milliSeconds = System.currentTimeMillis();
 
-        printTime(n);
-        System.out.print("  ");
-        printDate(n);
+        printCalendar(milliSeconds);
     }
 
-    public static void printTime(long n) {
+    public static void printCalendar(long milliSeconds) {
 
-        long seconds = n % 60;
+        int currentSeconds = getCurrentSecond(milliSeconds);
+        int currentMinutes = getCurrentMinutes(milliSeconds);
+        int currentHours = getCurrentHours(milliSeconds);
+        int currentYear = getCurrentYear(milliSeconds);
+        int currentMonth = getCurrentMonth(milliSeconds, getCurrentYear(milliSeconds));
+        int currentDay = (getCurrentDay(milliSeconds, getCurrentYear(milliSeconds),
+                getCurrentMonth(milliSeconds, getCurrentYear(milliSeconds))));
 
-        long remainingMinutes = n / 60;
-        long minutes = remainingMinutes % 60;
+        System.out.println((currentHours % 12)+ " : " + currentMinutes + " : " + currentSeconds +
+                ((currentHours > 12) ? " PM" : " AM") + "\n" +
+                currentDay + " / " + currentMonth + " / " + currentYear);
 
-        long remainingHours = remainingMinutes / 60;
-        long hours = (remainingHours + 3) % 24;
 
-        if (hours > 12){
-            hours -= 12;
-            System.out.print(hours + ":" + minutes + ":" + seconds + " PM");
+    }
 
-        }else {
-            System.out.print(hours + ":" + minutes + ":" + seconds + " AM");
+    public static int getCurrentDay(long milliSeconds, int currentYear, int currentMonth) {
+        int sum = 0;
+        for (int i = 1; i < currentMonth; i++) {
+            sum += getNumberOfDaysInMonth(currentYear, i);
         }
 
+        return getNumberOfDaysInCurrentYear(milliSeconds, currentYear) - sum + 1;
     }
 
-    public static long getNumberOfDaysSpentForYears(long n){
-        final int INITIAL_YEAR = 1970;
-        long numberOfDaysSpentForYears = 0;
-        long totalNumberOfDays = getTotalNumberOfDay(n);
+    public static int getCurrentMonth(long milliSeconds, int year){
 
-        int year = INITIAL_YEAR;
+        int numberOfDaysInCurrentYear = getNumberOfDaysInCurrentYear(milliSeconds, year);
+        int month = 1;
 
-        while (totalNumberOfDays >= daysInAYear(year)){
-            totalNumberOfDays -= daysInAYear(year);
-            numberOfDaysSpentForYears += daysInAYear(year);
-            year++;
-        }
-        return numberOfDaysSpentForYears;
-    }
+        while (numberOfDaysInCurrentYear >= getNumberOfDaysInMonth(year, month)){
+            numberOfDaysInCurrentYear -= getNumberOfDaysInMonth(year, month);
 
-    public static int getCurrentYear(long n){
-        final int INITIAL_YEAR = 1970;
-        long totalNumberOfDays = getTotalNumberOfDay(n);
-
-        int year = INITIAL_YEAR;
-
-        while (totalNumberOfDays >= daysInAYear(year)){
-            totalNumberOfDays -= daysInAYear(year);
-            year++;
-        }
-        return year;
-    }
-
-    public static long getNumberOfDaysSpentForMonths(long n){
-        final int INITIAL_MONTH = 1;
-        long totalNumberOfDays = getTotalNumberOfDay(n) - getNumberOfDaysSpentForYears(n);
-        long numberOfDaysSpentForMonths = 0;
-
-        int year = getCurrentYear(n);
-        int month = INITIAL_MONTH;
-
-        while(totalNumberOfDays >= daysInAMonth(year, month)){
-            totalNumberOfDays -= daysInAMonth(year, month);
-            numberOfDaysSpentForMonths += daysInAMonth(year, month);
             month++;
         }
-        return numberOfDaysSpentForMonths;
-    }
 
-    public static int getCurrentMonth(long n){
-        final int INITIAL_MONTH = 1;
-        long totalNumberOfDays = getTotalNumberOfDay(n) - getNumberOfDaysSpentForYears(n);
-
-        int year = getCurrentYear(n);
-        int month = INITIAL_MONTH;
-
-        while(totalNumberOfDays >= daysInAMonth(year, month)){
-            totalNumberOfDays -= daysInAMonth(year, month);
-            month++;
-        }
         return month;
     }
-    public static long getCurrentDay(long n){
-        final int INITIAL_DAY = 1;
-        return INITIAL_DAY + getTotalNumberOfDay(n) - getNumberOfDaysSpentForYears(n) -
-                getNumberOfDaysSpentForMonths(n);
+
+    public static int getCurrentYear(long milliSeconds) {
+        int year = 1970;
+        int totalNumberOfDays = getTotalNumberOfDays(milliSeconds);
+
+        while (totalNumberOfDays >= numberOfDaysInYear(year)){
+            totalNumberOfDays -= numberOfDaysInYear(year);
+            year++;
+        }
+
+        return year;
+    }
+    public static int getNumberOfDaysInCurrentYear(long milliSeconds, int year){
+        int sum = 0;
+        for (int i = 1970; i < year; i++) {
+            sum += numberOfDaysInYear(i);
+        }
+        return getTotalNumberOfDays(milliSeconds) - sum;
     }
 
+    public static int getCurrentHours(long milliSeconds) {
 
-    public static void printDate(long n){
-      int year = getCurrentYear(n);
-      int month = getCurrentMonth(n);
-      long day = getCurrentDay(n);
-
-        System.out.print(day + " / " + month + " / " + year);
+        return getTotalHours(milliSeconds) % 24;
 
     }
 
-    public static long getTotalNumberOfDay(long n){
-    long seconds = n % 60;
+    public static int getCurrentMinutes(long milliSeconds) {
 
-    long remainingMinutes = n / 60;
-    long minutes = remainingMinutes % 60;
+        return getTotalMinutes(milliSeconds) % 60;
 
-    long remainingHours = remainingMinutes / 60 + 3;
-    long hours = remainingHours % 24;
-
-    return remainingHours / 24;
     }
 
-    private static int daysInAMonth(int year, int month) {
-        if(isLeapYear(year)){
-            if(month == 1 || month == 3 || month == 5 ||
-               month == 7 || month == 8 || month == 10 || month == 12){
-                return 31;
+    public static int getCurrentSecond(long milliSeconds) {
 
-            } else if (month == 4 || month == 6 || month == 9 || month == 11) {
-                return 30;
+        return getTotalSeconds(milliSeconds) % 60;
+    }
 
-            }else{
+    public static int getTotalHours(long milliSeconds){
+        return (getTotalMinutes(milliSeconds) / 60) + 3;
+    }
+
+    public static int getTotalMinutes(long milliSeconds){
+        return getTotalSeconds(milliSeconds) / 60;
+    }
+
+    public static int getTotalSeconds(long milliSeconds){
+        return (int)(milliSeconds / 1000);
+    }
+    public static int getTotalNumberOfDays(long milliSeconds){
+        return getTotalHours(milliSeconds) / 24;
+    }
+    public static int numberOfDaysInYear(int year){
+        return (isLeapYear(year)) ? 366 : 365;
+    }
+    public static int getNumberOfDaysInMonth(int year, int month){
+
+        if(month == 1 || month == 3 || month == 5 ||month == 7 || month == 8 || month == 10 || month == 12){
+            return 31;
+        } else if (month == 2) {
+            if(isLeapYear(year)){
                 return 29;
-            }
-        }else {
-            if(month == 1 || month == 3 || month == 5 ||
-                    month == 7 || month == 8 || month == 10 || month == 12){
-                return 31;
-
-            } else if (month == 4 || month == 6 || month == 9 || month == 11) {
-                return 30;
-
             }else{
                 return 28;
             }
         }
-    }
 
-    public static int daysInAYear(int year) {
-        if(isLeapYear(year)){
-            return 366;
-        }
-        return 365;
+        return 30;
     }
-    private static boolean isLeapYear(int year){
+    public static boolean isLeapYear(int year){
         return year % 4 == 0 && year % 100 != 0 || year % 400 == 0;
     }
 

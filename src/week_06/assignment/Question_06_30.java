@@ -4,47 +4,48 @@ public class Question_06_30 {
 
     public static void main(String[] args) {
 
-        int num1 = getNumberFrom1To6();
-        int num2 = getNumberFrom1To6();
-        int sum = getSum(num1, num2);
+        int dice1 = rollDice();
+        int dice2 = rollDice();
+        int sum = dice1 + dice2;
 
-        System.out.println("You rolled " + num1 + " + " + num2 + " = " + sum);
+        System.out.println("You rolled " + dice1 + " + " + dice2 + " = " + sum);
 
-        if(firstCheckForWinAndLose(sum)){
+        if(isWin(sum)){
             System.out.println("You win");
         }
-        if (!firstCheckForWinAndLose(sum) && !firstCheckForAgainThrow(sum)){
+        if(isLose(sum)){
             System.out.println("You lose");
         }
-        if (firstCheckForAgainThrow(sum)){
+        if(!isWin(sum) && !isLose(sum)){
             System.out.println("Point is " + sum);
 
-            num1 = getNumberFrom1To6();
-            num2 = getNumberFrom1To6();
-            sum = getSum(num1, num2);
+            do{
+                dice1 = rollDice();
+                dice2 = rollDice();
 
-            System.out.println("You rolled " + num1 + " + " + num2 + " = " + sum);
+                System.out.println("You rolled " + dice1 + " + " +  dice2 + " = " + (dice1 + dice2));
 
-            if(sum != 7){
-                System.out.println("You win");
-            }else{
-                System.out.println("You lose");
-            }
+                if(dice1 + dice2 == sum){
+                    System.out.println("You win");
+                }
+                if(dice1 + dice2 == 7){
+                    System.out.println("You lose");
+                }
+
+            }while(dice1 + dice2 != sum && dice1 + dice2 != 7);
+
         }
+
     }
 
-    public static boolean firstCheckForWinAndLose(int sum){
-        return sum == 7 || sum == 11 || !firstCheckForAgainThrow(sum);
+    private static boolean isWin(int sum) {
+        return sum == 7 || sum == 11;
+    }
+    public static boolean isLose(int sum){
+        return sum == 2 || sum == 3 || sum == 12;
     }
 
-    public static boolean firstCheckForAgainThrow(int sum) {
-        return sum != 7 && sum != 11 && sum !=2 && sum != 3 && sum != 12;
-    }
-    public static int getNumberFrom1To6(){
+    private static int rollDice() {
         return (int)(Math.random() * 6) + 1;
     }
-    public static int getSum(int num1, int num2){
-        return num1 + num2;
-    }
-
 }

@@ -12,11 +12,12 @@ public class Question_06_28 {
                 System.out.print(i + "\t\t\t" + mersenneNumber(i) + "\n");
             }
         }
+
     }
 
     public static int mersenneNumber(int i) {
 
-        return (int)(Math.pow(2, i)) - 1;
+        return (int) ((Math.pow(2, i)) - 1);
     }
 
     public static boolean isPrime(int i) {

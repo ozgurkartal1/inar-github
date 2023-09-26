@@ -4,59 +4,62 @@ public class Question_06_32 {
     public static void main(String[] args) {
 
         int count = 0;
-        int countForWinning = 0;
+        for (int i = 0; i < 10000; i++) {
+           if(playCraps()){
+               count++;
+           }
+        }
 
-        do {
-            int num1 = getNumberFrom1To6();
-            int num2 = getNumberFrom1To6();
-            int sum = getSum(num1, num2);
+        System.out.println("Number of winning games : " + count);
 
-            count++;
+    }
+    public static boolean playCraps(){
+        int dice1 = rollDice();
+        int dice2 = rollDice();
+        int sum = dice1 + dice2;
 
-            System.out.println("You rolled " + num1 + " + " + num2 + " = " + sum);
 
-            if(firstCheckForWinAndLose(sum)){
-                System.out.println("You win");
-                countForWinning++;
-            }
-            if (!firstCheckForWinAndLose(sum) && !firstCheckForAgainThrow(sum)){
-                System.out.println("You lose");
-            }
-            if (firstCheckForAgainThrow(sum)){
-                System.out.println("Point is " + sum);
+        System.out.println("You rolled " + dice1 + " + " + dice2 + " = " + sum);
 
-                count++;
+        if(isWin(sum)){
+            System.out.println("You win");
+            return true;
+        }
+        if(isLose(sum)){
+            System.out.println("You lose");
+        }
+        if(!isWin(sum) && !isLose(sum)){
+            System.out.println("Point is " + sum);
 
-                num1 = getNumberFrom1To6();
-                num2 = getNumberFrom1To6();
-                sum = getSum(num1, num2);
+            do{
+                dice1 = rollDice();
+                dice2 = rollDice();
 
-                System.out.println("You rolled " + num1 + " + " + num2 + " = " + sum);
+                System.out.println("You rolled " + dice1 + " + " +  dice2 + " = " + (dice1 + dice2));
 
-                if(sum != 7){
+                if(dice1 + dice2 == sum){
                     System.out.println("You win");
-                    countForWinning++;
-                }else{
+                    return true;
+                }
+                if(dice1 + dice2 == 7){
                     System.out.println("You lose");
                 }
-            }
-        }while(count < 10000);
 
-        System.out.println("Number of winning games is " + countForWinning);
+            }while(dice1 + dice2 != sum && dice1 + dice2 != 7);
+
+        }
+
+        return false;
     }
-    public static boolean firstCheckForWinAndLose(int sum){
-        return sum == 7 || sum == 11 ;
+    private static boolean isWin(int sum) {
+        return sum == 7 || sum == 11;
+    }
+    public static boolean isLose(int sum){
+        return sum == 2 || sum == 3 || sum == 12;
     }
 
-    public static boolean firstCheckForAgainThrow(int sum) {
-        return sum != 7 && sum != 11 && sum != 2 && sum != 3 && sum != 12;
-    }
-    public static int getNumberFrom1To6(){
+    private static int rollDice() {
         return (int)(Math.random() * 6) + 1;
     }
-    public static int getSum(int num1, int num2){
-        return num1 + num2;
-    }
-
 
 }
