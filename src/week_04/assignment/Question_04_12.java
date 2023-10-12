@@ -45,9 +45,5 @@ public class Question_04_12 {
 
     }
 
-    public static String getBinaryValue(int value){
 
-
-        return "" + binaryValueDigit1 + binaryValueDigit2 + binaryValueDigit3 + binaryValueDigit4;
-    }
 }
