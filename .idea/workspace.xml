@@ -5,47 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02d13332-c69c-4bce-8e32-bb9b3ca4393a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/week_04/assignment/Question_04_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_04/assignment/Question_04_02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_04/assignment/Question_04_03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_04/assignment/Question_04_04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_04/assignment/Question_04_05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_04/assignment/Question_04_06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_04/assignment/Question_04_07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_04/assignment/Question_04_08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_04/assignment/Question_04_09.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_04/assignment/Question_04_10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_04/assignment/Question_04_11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_04/assignment/Question_04_12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_04/assignment/Question_04_13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_04/assignment/Question_04_14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_04/assignment/Question_04_15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_04/assignment/Question_04_16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_04/assignment/Question_04_17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_04/assignment/Question_04_18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_04/assignment/Question_04_19.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_04/assignment/Question_04_20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_04/assignment/Question_04_21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_04/assignment/Question_04_22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_04/assignment/Question_04_23.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_04/assignment/Question_04_24.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_04/assignment/Question_04_25.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_04/assignment/Question_04_26.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_04/live_class/AreaCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_04/live_class/CharMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_04/live_class/ComputeAngles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_04/live_class/MinMaxAbs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_04/live_class/MyString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_04/live_class/MyString1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week_04/live_class/TheClosestPlace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week_03/assignment/Question_03_05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_03/assignment/Question_03_05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week_03/assignment/Question_03_15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_03/assignment/Question_03_15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week_03/assignment/Question_03_20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_03/assignment/Question_03_20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week_03/assignment/Question_03_21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_03/assignment/Question_03_21.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week_03/assignment/Question_03_22.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_03/assignment/Question_03_22.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week_03/assignment/Question_03_23.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_03/assignment/Question_03_23.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week_03/assignment/Question_03_34.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week_03/assignment/Question_03_34.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +65,7 @@
       <recent name="C:\Users\PC\workspace" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Question_04_12">
+  <component name="RunManager" selected="Application.Question_07_04">
     <configuration name="Question_04_06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week_04.assignment.Question_04_06" />
       <module name="inar-java" />
@@ -143,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question_04_16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_04.assignment.Question_04_16" />
+    <configuration name="Question_07_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.week_07.assignment.Question_07_04" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week_04.assignment.*" />
+          <option name="PATTERN" value="src.week_07.assignment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question_04_25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_04.assignment.Question_04_25" />
+    <configuration name="Question_07_24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.week_07.assignment.Question_07_24" />
       <module name="inar-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week_04.assignment.*" />
+          <option name="PATTERN" value="src.week_07.assignment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Question_07_04" />
+        <item itemvalue="Application.Question_07_24" />
         <item itemvalue="Application.Question_04_12" />
         <item itemvalue="Application.Question_04_10" />
         <item itemvalue="Application.Question_04_06" />
-        <item itemvalue="Application.Question_04_25" />
-        <item itemvalue="Application.Question_04_16" />
       </list>
     </recent_temporary>
   </component>
